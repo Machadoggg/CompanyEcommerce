@@ -3,7 +3,7 @@
 
 namespace Company.Ecommerce.Transversal.Common
 {
-    public interface IConnetionFactory
+    public interface IConnectionFactory
     {
         IDbConnection GetConnection { get; }
     }

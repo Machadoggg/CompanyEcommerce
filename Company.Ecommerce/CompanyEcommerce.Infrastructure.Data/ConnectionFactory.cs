@@ -15,5 +15,20 @@ namespace CompanyEcommerce.Infrastructure.Data
         {
             _configuration = configuration;
         }
+
+        public IDbConnection GetConnection
+        {
+            get
+            {
+                var sqlConnection = new SqlConnection();
+                if (sqlConnection == null) return null;
+
+                sqlConnection.ConnectionString = _configuration.GetConnectionString("NorthwindConnection");
+
+                sqlConnection.Open();
+                return sqlConnection;
+            }
+        }
+
     }
 }
