@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CompanyEcommerce.Infrastructure.Interface
+namespace Company.Ecommerce.Infrastructure.Interface
 {
     public interface ICustomersRepository
     {

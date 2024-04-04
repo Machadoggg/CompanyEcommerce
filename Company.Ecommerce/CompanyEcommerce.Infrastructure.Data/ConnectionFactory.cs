@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Data;
 
 
-namespace CompanyEcommerce.Infrastructure.Data
+namespace Company.Ecommerce.Infrastructure.Data
 {
     public class ConnectionFactory : IConnectionFactory
     {
@@ -16,7 +16,7 @@ namespace CompanyEcommerce.Infrastructure.Data
             _configuration = configuration;
         }
 
-        public IDbConnection GetConnection
+        public IDbConnection? GetConnection
         {
             get
             {

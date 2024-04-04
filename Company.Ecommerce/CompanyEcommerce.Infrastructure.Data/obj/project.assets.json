@@ -892,9 +892,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\CompanyEcommerce.Infrastructure.Data.csproj",
-      "projectName": "CompanyEcommerce.Infrastructure.Data",
-      "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\CompanyEcommerce.Infrastructure.Data.csproj",
+      "projectUniqueName": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\Company.Ecommerce.Infrastructure.Data.csproj",
+      "projectName": "Company.Ecommerce.Infrastructure.Data",
+      "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\Company.Ecommerce.Infrastructure.Data.csproj",
       "packagesPath": "C:\\Users\\Edisson\\.nuget\\packages\\",
       "outputPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",

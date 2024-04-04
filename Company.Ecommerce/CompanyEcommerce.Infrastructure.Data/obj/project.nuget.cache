@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LtQUsZu7USwsFaHfig9zZtlFfaD7DZ6jnkE5e8CERkD9ZeCRixfHyyqTpm4POvNd6PXssc7FiUVF5AzNtNQdmQ==",
+  "dgSpecHash": "sUxyZO7iS54E6g3Jfk2Ko7OeeTPZdE38V/8dw+M8fROyltCb6g7uqwANXQI4JDYglnsXo7wKfseyor+s8Q2i/g==",
   "success": true,
-  "projectFilePath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\CompanyEcommerce.Infrastructure.Data.csproj",
+  "projectFilePath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Data\\Company.Ecommerce.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edisson\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Edisson\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
