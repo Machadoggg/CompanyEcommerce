@@ -7,8 +7,13 @@ using System.Data;
 
 namespace CompanyEcommerce.Infrastructure.Data
 {
-    public class ConnectionFactory
+    public class ConnectionFactory : IConnectionFactory
     {
+        private readonly IConfiguration _configuration;
 
+        public ConnectionFactory(IConfiguration configuration) 
+        {
+            _configuration = configuration;
+        }
     }
 }
