@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Data;
+
 
 namespace Company.Ecommerce.Transversal.Common
 {
     public interface IConnetionFactory
     {
+        IDbConnection GetConnection { get; }
     }
 }
