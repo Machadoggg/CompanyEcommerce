@@ -283,6 +283,16 @@
             "rid": "win"
           }
         }
+      },
+      "Company.Ecommerce.Transversal.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Transversal.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Transversal.Common.dll": {}
+        }
       }
     }
   },
@@ -859,10 +869,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Company.Ecommerce.Transversal.Common/1.0.0": {
+      "type": "project",
+      "path": "../Company.Ecommerce.Transversal.Common/Company.Ecommerce.Transversal.Common.csproj",
+      "msbuildProject": "../Company.Ecommerce.Transversal.Common/Company.Ecommerce.Transversal.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "Company.Ecommerce.Transversal.Common >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 8.0.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
@@ -904,7 +920,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Common\\Company.Ecommerce.Transversal.Common.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Common\\Company.Ecommerce.Transversal.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
