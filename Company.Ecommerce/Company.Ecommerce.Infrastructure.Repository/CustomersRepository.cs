@@ -68,6 +68,20 @@ namespace Company.Ecommerce.Infrastructure.Repository
             }
         }
 
+        public bool Delete(string customerId)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "CustomersDelete";
+                var parameters = new DynamicParameters();
+
+                parameters.Add("CustomerId", customerId);
+
+                var result = connection.Execute(query, param: parameters, commandType: CommandType.StoredProcedure);
+                return result > 0;
+            }
+        }
+
 
         #endregion
     }
