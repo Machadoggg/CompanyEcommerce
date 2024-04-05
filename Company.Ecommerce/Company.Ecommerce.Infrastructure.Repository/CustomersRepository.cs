@@ -82,6 +82,19 @@ namespace Company.Ecommerce.Infrastructure.Repository
             }
         }
 
+        public Customers Get(string customerId)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "CustomersGEtByID";
+                var parameters = new DynamicParameters();
+                parameters.Add("CustomerId", customerId);
+
+                var customer = connection.QuerySingle<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
+                return customer;
+            }
+        }
+
 
         #endregion
     }
