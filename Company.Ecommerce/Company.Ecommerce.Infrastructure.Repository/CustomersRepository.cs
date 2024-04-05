@@ -5,6 +5,7 @@ using Company.Ecommerce.Transversal.Common;
 using Dapper;
 using System.Data;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Company.Ecommerce.Infrastructure.Repository
 {
@@ -92,6 +93,16 @@ namespace Company.Ecommerce.Infrastructure.Repository
 
                 var customer = connection.QuerySingle<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
                 return customer;
+            }
+        }
+        public IEnumerable<Customers> GetAll(string customerId)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "CustomersList";
+
+                var customers = connection.Query<Customers>(query, commandType: CommandType.StoredProcedure);
+                return customers;
             }
         }
 
