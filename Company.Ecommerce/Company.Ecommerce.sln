@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Ecommerce.Transversal.Common", "Company.Ecommerce.Transversal.Common\Company.Ecommerce.Transversal.Common.csproj", "{0C1EA396-A6F6-453F-B8B4-23579CBE7CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Transversal.Common", "Company.Ecommerce.Transversal.Common\Company.Ecommerce.Transversal.Common.csproj", "{0C1EA396-A6F6-453F-B8B4-23579CBE7CFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{7F5A1814-D02B-45EE-B8F3-D3C8C742CB1E}"
 EndProject
@@ -15,11 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9AFA164C-94F0-46AE-8308-DDA3E3BDFBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Ecommerce.Infrastructure.Data", "CompanyEcommerce.Infrastructure.Data\Company.Ecommerce.Infrastructure.Data.csproj", "{1F7E3E74-0ABF-43CA-B5DE-16D5AA2D7FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Infrastructure.Data", "CompanyEcommerce.Infrastructure.Data\Company.Ecommerce.Infrastructure.Data.csproj", "{1F7E3E74-0ABF-43CA-B5DE-16D5AA2D7FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Ecommerce.Infrastructure.Interface", "CompanyEcommerce.Infrastructure.Interface\Company.Ecommerce.Infrastructure.Interface.csproj", "{0EC56A76-87A6-44C9-9F2C-2EA1EA898DF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Infrastructure.Interface", "CompanyEcommerce.Infrastructure.Interface\Company.Ecommerce.Infrastructure.Interface.csproj", "{0EC56A76-87A6-44C9-9F2C-2EA1EA898DF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Ecommerce.Domain.Entity", "Company.Ecommerce.Domain.Entity\Company.Ecommerce.Domain.Entity.csproj", "{118954B3-1B33-4C72-8B28-3788116815DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Domain.Entity", "Company.Ecommerce.Domain.Entity\Company.Ecommerce.Domain.Entity.csproj", "{118954B3-1B33-4C72-8B28-3788116815DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Ecommerce.Infrastructure.Repository", "Company.Ecommerce.Infrastructure.Repository\Company.Ecommerce.Infrastructure.Repository.csproj", "{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{118954B3-1B33-4C72-8B28-3788116815DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118954B3-1B33-4C72-8B28-3788116815DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118954B3-1B33-4C72-8B28-3788116815DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{1F7E3E74-0ABF-43CA-B5DE-16D5AA2D7FAD} = {9AFA164C-94F0-46AE-8308-DDA3E3BDFBFB}
 		{0EC56A76-87A6-44C9-9F2C-2EA1EA898DF6} = {9AFA164C-94F0-46AE-8308-DDA3E3BDFBFB}
 		{118954B3-1B33-4C72-8B28-3788116815DF} = {F4F41827-FDD6-4909-9DEF-7BF207207DD7}
+		{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E} = {9AFA164C-94F0-46AE-8308-DDA3E3BDFBFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E1B1992-652B-4FA6-9FA9-997F4D9443F9}
