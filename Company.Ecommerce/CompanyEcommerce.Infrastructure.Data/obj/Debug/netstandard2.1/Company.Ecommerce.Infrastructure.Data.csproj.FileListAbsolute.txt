@@ -1,0 +1,13 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.deps.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.csproj.AssemblyReference.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.csproj.CopyComplete
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.pdb

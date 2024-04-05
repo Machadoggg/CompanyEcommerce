@@ -1,0 +1,10 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.deps.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.csproj.AssemblyReference.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.pdb
