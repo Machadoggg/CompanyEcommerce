@@ -24,7 +24,7 @@ namespace Company.Ecommerce.Infrastructure.Repository
         {
             using (var connection = _connectionFactory.GetConnection)
             {
-                var query = "CustomerInsert";
+                var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
 
                 parameters.Add("CustomerId", customers.CustomerId);
@@ -43,6 +43,31 @@ namespace Company.Ecommerce.Infrastructure.Repository
                 return result > 0;
             }
         }
+
+        public bool Update(Customers customers)
+        {
+            using (var connection = _connectionFactory.GetConnection)
+            {
+                var query = "CustomersUpdate";
+                var parameters = new DynamicParameters();
+
+                parameters.Add("CustomerId", customers.CustomerId);
+                parameters.Add("CompanyName", customers.CompanyName);
+                parameters.Add("ContactName", customers.ContactName);
+                parameters.Add("ContactTitle", customers.ContactTitle);
+                parameters.Add("Address", customers.Address);
+                parameters.Add("City", customers.City);
+                parameters.Add("Region", customers.Region);
+                parameters.Add("PostalCode", customers.PostalCode);
+                parameters.Add("Country", customers.Country);
+                parameters.Add("Phone", customers.Phone);
+                parameters.Add("Fax", customers.Fax);
+
+                var result = connection.Execute(query, param: parameters, commandType: CommandType.StoredProcedure);
+                return result > 0;
+            }
+        }
+
 
         #endregion
     }
