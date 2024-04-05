@@ -5,4 +5,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Ecommerce.Transversal.Common\Company.Ecommerce.Transversal.Common.csproj" />
+    <ProjectReference Include="..\CompanyEcommerce.Infrastructure.Data\Company.Ecommerce.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\CompanyEcommerce.Infrastructure.Interface\Company.Ecommerce.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
 </Project>
