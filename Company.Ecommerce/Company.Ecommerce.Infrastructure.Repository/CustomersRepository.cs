@@ -8,8 +8,13 @@ using System.Threading.Tasks;
 
 namespace Company.Ecommerce.Infrastructure.Repository
 {
-    public class CustomersRepository
+    public class CustomersRepository : ICustomersRepository
     {
+        private readonly IConnectionFactory _connectionFactory;
 
+        public CustomersRepository(IConnectionFactory connectionFactory)
+        {
+            _connectionFactory = connectionFactory;
+        }
     }
 }
