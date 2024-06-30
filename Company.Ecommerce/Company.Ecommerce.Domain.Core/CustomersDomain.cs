@@ -72,7 +72,6 @@ namespace Company.Ecommerce.Domain.Core
         {
             return await _customersRepository.GetAllAsync();
         }
-
         #endregion
     }
 }
