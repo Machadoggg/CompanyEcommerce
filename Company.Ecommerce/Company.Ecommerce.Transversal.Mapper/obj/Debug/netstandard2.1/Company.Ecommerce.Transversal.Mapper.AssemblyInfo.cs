@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Company.Ecommerce.Transversal.Mapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75450991ad913f2eb8f4f15e65c5f558dfcdd311")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38f38fcf0ab1768b2b55f72b2ab4876d0d42d8ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Company.Ecommerce.Transversal.Mapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Company.Ecommerce.Transversal.Mapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
