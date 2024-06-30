@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Domain.Entity", "Company.Ecommerce.Domain.Entity\Company.Ecommerce.Domain.Entity.csproj", "{118954B3-1B33-4C72-8B28-3788116815DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Ecommerce.Infrastructure.Repository", "Company.Ecommerce.Infrastructure.Repository\Company.Ecommerce.Infrastructure.Repository.csproj", "{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Ecommerce.Infrastructure.Repository", "Company.Ecommerce.Infrastructure.Repository\Company.Ecommerce.Infrastructure.Repository.csproj", "{4595B4BD-FEF5-427C-9A3E-1D68A824BD0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
