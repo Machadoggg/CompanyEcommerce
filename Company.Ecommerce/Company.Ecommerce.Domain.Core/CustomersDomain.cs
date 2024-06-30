@@ -63,15 +63,16 @@ namespace Company.Ecommerce.Domain.Core
             return await _customersRepository.DeleteAsync(customerId);
         }
 
+        public async Task<Customers> GetAsync(string customerId)
+        {
+            return await _customersRepository.GetAsync(customerId);
+        }
+
         public async Task<IEnumerable<Customers>> GetAllAsync()
         {
             return await _customersRepository.GetAllAsync();
         }
 
-        public async Task<Customers> GetAsync(string customerId)
-        {
-            return await _customersRepository.GetAsync(customerId);
-        }
         #endregion
     }
 }
