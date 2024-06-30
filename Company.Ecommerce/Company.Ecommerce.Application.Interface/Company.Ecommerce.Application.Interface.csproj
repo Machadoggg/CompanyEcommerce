@@ -5,4 +5,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Ecommerce.Application.DTO\Company.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Company.Ecommerce.Transversal.Common\Company.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
 </Project>
