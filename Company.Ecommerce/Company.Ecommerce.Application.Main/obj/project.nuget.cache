@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gp3G2+HFpYo=",
+  "dgSpecHash": "dqSUWiyrosc=",
   "success": true,
   "projectFilePath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Application.Main\\Company.Ecommerce.Application.Main.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Edisson\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Edisson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
