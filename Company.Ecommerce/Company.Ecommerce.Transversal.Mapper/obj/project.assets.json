@@ -30,6 +30,26 @@
             "related": ".xml"
           }
         }
+      },
+      "Company.Ecommerce.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "Company.Ecommerce.Domain.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Domain.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Domain.Entity.dll": {}
+        }
       }
     }
   },
@@ -117,11 +137,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Company.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Company.Ecommerce.Application.DTO/Company.Ecommerce.Application.DTO.csproj",
+      "msbuildProject": "../Company.Ecommerce.Application.DTO/Company.Ecommerce.Application.DTO.csproj"
+    },
+    "Company.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Company.Ecommerce.Domain.Entity/Company.Ecommerce.Domain.Entity.csproj",
+      "msbuildProject": "../Company.Ecommerce.Domain.Entity/Company.Ecommerce.Domain.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "AutoMapper >= 12.0.1"
+      "AutoMapper >= 12.0.1",
+      "Company.Ecommerce.Application.DTO >= 1.0.0",
+      "Company.Ecommerce.Domain.Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -161,7 +193,14 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Application.DTO\\Company.Ecommerce.Application.DTO.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Application.DTO\\Company.Ecommerce.Application.DTO.csproj"
+            },
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Domain.Entity\\Company.Ecommerce.Domain.Entity.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Domain.Entity\\Company.Ecommerce.Domain.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
