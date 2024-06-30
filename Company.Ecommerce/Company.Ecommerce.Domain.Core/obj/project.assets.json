@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "Company.Ecommerce.Domain.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Domain.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Domain.Entity.dll": {}
+        }
+      },
+      "Company.Ecommerce.Domain.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Company.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Domain.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Domain.Interface.dll": {}
+        }
+      },
+      "Company.Ecommerce.Infrastructure.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Company.Ecommerce.Domain.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Infrastructure.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Infrastructure.Interface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Company.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Company.Ecommerce.Domain.Entity/Company.Ecommerce.Domain.Entity.csproj",
+      "msbuildProject": "../Company.Ecommerce.Domain.Entity/Company.Ecommerce.Domain.Entity.csproj"
+    },
+    "Company.Ecommerce.Domain.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Company.Ecommerce.Domain.Interface/Company.Ecommerce.Domain.Interface.csproj",
+      "msbuildProject": "../Company.Ecommerce.Domain.Interface/Company.Ecommerce.Domain.Interface.csproj"
+    },
+    "Company.Ecommerce.Infrastructure.Interface/1.0.0": {
+      "type": "project",
+      "path": "../CompanyEcommerce.Infrastructure.Interface/Company.Ecommerce.Infrastructure.Interface.csproj",
+      "msbuildProject": "../CompanyEcommerce.Infrastructure.Interface/Company.Ecommerce.Infrastructure.Interface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "Company.Ecommerce.Domain.Entity >= 1.0.0",
+      "Company.Ecommerce.Domain.Interface >= 1.0.0",
+      "Company.Ecommerce.Infrastructure.Interface >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Edisson\\.nuget\\packages\\": {},
@@ -44,7 +101,17 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Domain.Entity\\Company.Ecommerce.Domain.Entity.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Domain.Entity\\Company.Ecommerce.Domain.Entity.csproj"
+            },
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Domain.Interface\\Company.Ecommerce.Domain.Interface.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Domain.Interface\\Company.Ecommerce.Domain.Interface.csproj"
+            },
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Interface\\Company.Ecommerce.Infrastructure.Interface.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\CompanyEcommerce.Infrastructure.Interface\\Company.Ecommerce.Infrastructure.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
