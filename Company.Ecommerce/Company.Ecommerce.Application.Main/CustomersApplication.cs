@@ -22,6 +22,29 @@ namespace Company.Ecommerce.Application.Main
         }
 
 
+
+
+        public Response<bool> Insert(CustomersDto customersDto)
+        {
+            var response = new Response<bool>();
+            try
+            {
+                var customer = _mapper.Map<Customers>(customersDto);
+                response.Data = _customersDomain.Insert(customer);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Registro Exitoso!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
+        }
+
+
         public bool Delete(string customerId)
         {
             throw new NotImplementedException();
@@ -52,10 +75,6 @@ namespace Company.Ecommerce.Application.Main
             throw new NotImplementedException();
         }
 
-        public Response<bool> Insert(CustomersDto customersDto)
-        {
-            throw new NotImplementedException();
-        }
 
         public Task<Response<bool>> InsertAsync(CustomersDto customersDto)
         {
