@@ -44,6 +44,29 @@ namespace Company.Ecommerce.Application.Main
             return response;
         }
 
+        public Response<bool> Update(CustomersDto customersDto)
+        {
+            var response = new Response<bool>();
+            try
+            {
+                var customer = _mapper.Map<Customers>(customersDto);
+                response.Data = _customersDomain.Update(customer);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Actualización exitosa";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
+        }
+
+
+
+
 
         public bool Delete(string customerId)
         {
@@ -81,10 +104,7 @@ namespace Company.Ecommerce.Application.Main
             throw new NotImplementedException();
         }
 
-        public bool Update(CustomersDto customersDto)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public Task<bool> UpdateAsync(CustomersDto customersDto)
         {
