@@ -86,12 +86,42 @@ namespace Company.Ecommerce.Application.Main
 
         public Response<CustomersDto> Get(string customerId)
         {
-            throw new NotImplementedException();
+            var response = new Response<CustomersDto>();
+            try
+            {
+                var customer = _customersDomain.Get(customerId);
+                response.Data = _mapper.Map<CustomersDto>(customer);
+                if (response.Data != null)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Consulta Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
         public Response<IEnumerable<CustomersDto>> GetAll()
         {
-            throw new NotImplementedException();
+            var response = new Response<IEnumerable<CustomersDto>>();
+            try
+            {
+                var customers = _customersDomain.GetAll();
+                response.Data = _mapper.Map<IEnumerable<CustomersDto>>(customers);
+                if (response.Data != null)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Consulta Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
         #endregion
 
@@ -122,6 +152,16 @@ namespace Company.Ecommerce.Application.Main
         
 
         public Task<bool> UpdateAsync(CustomersDto customersDto)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool ICustomerApplication.Update(CustomersDto customersDto)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool ICustomerApplication.Delete(string customerId)
         {
             throw new NotImplementedException();
         }
