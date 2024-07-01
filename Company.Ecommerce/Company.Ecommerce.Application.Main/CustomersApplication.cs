@@ -23,7 +23,7 @@ namespace Company.Ecommerce.Application.Main
 
 
 
-
+        #region Async methods
         public Response<bool> Insert(CustomersDto customersDto)
         {
             var response = new Response<bool>();
@@ -64,19 +64,25 @@ namespace Company.Ecommerce.Application.Main
             return response;
         }
 
-
-
-
-
-        public bool Delete(string customerId)
+        public Response<bool> Delete(string customerId)
         {
-            throw new NotImplementedException();
+            var response = new Response<bool>();
+            try
+            {
+                response.Data = _customersDomain.Delete(customerId);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Eliminación Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
-        public Task<Response<bool>> DeleteAsync(string customerId)
-        {
-            throw new NotImplementedException();
-        }
 
         public Response<CustomersDto> Get(string customerId)
         {
@@ -87,6 +93,15 @@ namespace Company.Ecommerce.Application.Main
         {
             throw new NotImplementedException();
         }
+        #endregion
+
+
+
+        public Task<Response<bool>> DeleteAsync(string customerId)
+        {
+            throw new NotImplementedException();
+        }
+
 
         public Task<Response<IEnumerable<CustomersDto>>> GetAllAsync()
         {
