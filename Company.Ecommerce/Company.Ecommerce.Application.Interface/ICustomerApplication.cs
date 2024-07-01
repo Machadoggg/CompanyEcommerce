@@ -9,8 +9,8 @@ namespace Company.Ecommerce.Application.Interface
     {
         #region Methods Synchronous
         Response<bool> Insert(CustomersDto customersDto);
-        bool Update(CustomersDto customersDto);
-        bool Delete(string customerId);
+        Response<bool> Update(CustomersDto customersDto);
+        Response<bool> Delete(string customerId);
 
         Response<CustomersDto> Get(string customerId);
         Response<IEnumerable<CustomersDto>> GetAll();
@@ -19,7 +19,7 @@ namespace Company.Ecommerce.Application.Interface
 
         #region Methods Asynchronous
         Task<Response<bool>> InsertAsync(CustomersDto customersDto);
-        Task<bool> UpdateAsync(CustomersDto customersDto);
+        Task<Response<bool>> UpdateAsync(CustomersDto customersDto);
         Task<Response<bool>> DeleteAsync(string customerId);
 
         Task<Response<CustomersDto>> GetAsync(string customerId);

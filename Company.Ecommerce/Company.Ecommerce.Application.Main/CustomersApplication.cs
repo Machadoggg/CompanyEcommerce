@@ -126,44 +126,110 @@ namespace Company.Ecommerce.Application.Main
         #endregion
 
 
-
-        public Task<Response<bool>> DeleteAsync(string customerId)
+        #region Async methods
+        public async Task<Response<bool>> InsertAsync(CustomersDto customersDto)
         {
-            throw new NotImplementedException();
+            var response = new Response<bool>();
+            try
+            {
+                var customer = _mapper.Map<Customers>(customersDto);
+                response.Data = await _customersDomain.InsertAsync(customer);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Registro Exitoso!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
 
-        public Task<Response<IEnumerable<CustomersDto>>> GetAllAsync()
+
+        public async Task<Response<bool>> UpdateAsync(CustomersDto customersDto)
         {
-            throw new NotImplementedException();
+            var response = new Response<bool>();
+            try
+            {
+                var customer = _mapper.Map<Customers>(customersDto);
+                response.Data = await _customersDomain.UpdateAsync(customer);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Actualización Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
-        public Task<Response<CustomersDto>> GetAsync(string customerId)
+
+        public async Task<Response<bool>> DeleteAsync(string customerId)
         {
-            throw new NotImplementedException();
+            var response = new Response<bool>();
+            try
+            {
+                response.Data = await _customersDomain.DeleteAsync(customerId);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Eliminación Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
-
-        public Task<Response<bool>> InsertAsync(CustomersDto customersDto)
+        public async Task<Response<CustomersDto>> GetAsync(string customerId)
         {
-            throw new NotImplementedException();
+            var response = new Response<CustomersDto>();
+            try
+            {
+                var customer = await _customersDomain.GetAsync(customerId);
+                response.Data = _mapper.Map<CustomersDto>(customer);
+                if (response.Data != null)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Consulta Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
-        
-
-        public Task<bool> UpdateAsync(CustomersDto customersDto)
+        public async Task<Response<IEnumerable<CustomersDto>>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var response = new Response<IEnumerable<CustomersDto>>();
+            try
+            {
+                var customers = await _customersDomain.GetAllAsync();
+                response.Data = _mapper.Map<IEnumerable<CustomersDto>>(customers);
+                if (response.Data != null)
+                {
+                    response.IsSuccess = true;
+                    response.Message = "Consulta Exitosa!!!";
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+            }
+            return response;
         }
 
-        bool ICustomerApplication.Update(CustomersDto customersDto)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool ICustomerApplication.Delete(string customerId)
-        {
-            throw new NotImplementedException();
-        }
+       
+        #endregion
     }
 }
