@@ -42,6 +42,19 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpDelete("{CustomerId}")]
+        public IActionResult Delete(string CustomerId)
+        {
+            if (string.IsNullOrEmpty(CustomerId))
+                return BadRequest();
+
+            var response = _customerApplication.Delete(CustomerId);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
     }
