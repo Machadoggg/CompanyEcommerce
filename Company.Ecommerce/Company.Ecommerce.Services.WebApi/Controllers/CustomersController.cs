@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Company.Ecommerce.Services.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
-    public class CustomersController : ControllerBase
+    public class CustomersController : Controller
     {
     }
 }
