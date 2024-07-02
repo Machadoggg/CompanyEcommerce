@@ -55,6 +55,19 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpGet("{CustomerId}")]
+        public IActionResult Get(string CustomerId)
+        {
+            if (string.IsNullOrEmpty(CustomerId))
+                return BadRequest();
+
+            var response = _customerApplication.Get(CustomerId);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
     }
