@@ -68,6 +68,16 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var response = _customerApplication.GetAll();
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
     }
