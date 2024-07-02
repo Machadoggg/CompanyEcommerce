@@ -80,7 +80,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
         #endregion
 
-        #region "Sync methods"
+        #region "Async methods"
         [HttpPost]
         public async Task<IActionResult> InsertAsync([FromBody] CustomersDto customersDto)
         {
@@ -101,6 +101,19 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
                 return BadRequest();
 
             var response = await _customerApplication.UpdateAsync(customersDto);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
+
+        [HttpDelete("{CustomerId}")]
+        public async Task<IActionResult> DeleteAsync(string CustomerId)
+        {
+            if (string.IsNullOrEmpty(CustomerId))
+                return BadRequest();
+
+            var response = await _customerApplication.DeleteAsync(CustomerId);
             if (response.IsSuccess)
                 return Ok(response);
 
