@@ -29,6 +29,19 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpPut]
+        public IActionResult Update([FromBody] CustomersDto customersDto)
+        {
+            if (customersDto == null)
+                return BadRequest();
+
+            var response = _customerApplication.Update(customersDto);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
     }
