@@ -15,5 +15,21 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         {
             _customerApplication = customerApplication;
         }
+
+        #region "Sync methods"
+        [HttpPost]
+        public IActionResult Insert([FromBody]CustomersDto customersDto)
+        {
+            if (customersDto == null)
+                return BadRequest();
+
+            var response = _customerApplication.Insert(customersDto);
+            if (response.IsSuccess)
+            return Ok(response);
+
+            return BadRequest(response.Message);
+        }
+        #endregion
+
     }
 }
