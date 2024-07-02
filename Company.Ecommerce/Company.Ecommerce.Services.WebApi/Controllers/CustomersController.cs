@@ -133,6 +133,16 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllAsync()
+        {
+            var response = await _customerApplication.GetAllAsync();
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
     }
