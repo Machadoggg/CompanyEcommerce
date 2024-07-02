@@ -20,6 +20,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
