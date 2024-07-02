@@ -93,6 +93,19 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateAsync([FromBody] CustomersDto customersDto)
+        {
+            if (customersDto == null)
+                return BadRequest();
+
+            var response = await _customerApplication.UpdateAsync(customersDto);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
     }
