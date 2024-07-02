@@ -80,5 +80,20 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
         #endregion
 
+        #region "Sync methods"
+        [HttpPost]
+        public async Task<IActionResult> InsertAsync([FromBody] CustomersDto customersDto)
+        {
+            if (customersDto == null)
+                return BadRequest();
+
+            var response = await _customerApplication.InsertAsync(customersDto);
+            if (response.IsSuccess)
+                return Ok(response);
+
+            return BadRequest(response.Message);
+        }
+        #endregion
+
     }
 }
