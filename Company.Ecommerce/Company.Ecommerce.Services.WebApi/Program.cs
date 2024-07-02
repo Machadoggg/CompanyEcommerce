@@ -1,3 +1,14 @@
+using AutoMapper;
+using Company.Ecommerce.Transversal.Mapper;
+using Company.Ecommerce.Transversal.Common;
+using Company.Ecommerce.Infrastructure.Data;
+using Company.Ecommerce.Infrastructure.Repository;
+using Company.Ecommerce.Infrastructure.Interface;
+using Company.Ecommerce.Domain.Interface;
+using Company.Ecommerce.Domain.Core;
+using Company.Ecommerce.Application.Interface;
+using Company.Ecommerce.Application.Main;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
