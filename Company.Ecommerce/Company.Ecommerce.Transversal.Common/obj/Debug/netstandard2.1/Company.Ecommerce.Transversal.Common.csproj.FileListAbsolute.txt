@@ -1,10 +1,10 @@
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.deps.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.pdb
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.csproj.AssemblyReference.cache
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.AssemblyInfoInputs.cache
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.AssemblyInfo.cs
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.sourcelink.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.pdb

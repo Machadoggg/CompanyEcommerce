@@ -1,0 +1,10 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.deps.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.sourcelink.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.DTO\obj\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.pdb

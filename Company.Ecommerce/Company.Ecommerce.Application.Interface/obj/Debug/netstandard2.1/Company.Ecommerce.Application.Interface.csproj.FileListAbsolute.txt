@@ -1,0 +1,16 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.deps.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.csproj.AssemblyReference.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.sourcelink.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company..B6991313.Up2Date
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Application.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Application.Interface.pdb

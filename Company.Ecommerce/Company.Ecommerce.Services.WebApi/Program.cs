@@ -17,17 +17,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(x => 
     x.AddProfile(new MappingsProfile()));
 
-//builder.Services.AddControllers()
-//    .AddNewtonsoftJson(options =>
-//    {
-//        options.SerializerSettings.ContractResolver = new DefaultContractResolver();
-//    });
-
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
     {
         options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();
     });
+
+// Access the IConfiguration instance
+var configuration = builder.Configuration;
+builder.Services.AddSingleton<IConfiguration>(configuration);
+builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
+builder.Services.AddScoped<ICustomerApplication, CustomersApplication>();
+builder.Services.AddScoped<ICustomersDomain, CustomersDomain>();
+builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

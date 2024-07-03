@@ -1,0 +1,16 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.deps.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Application.DTO.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.csproj.AssemblyReference.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.sourcelink.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company..C579F8BA.Up2Date
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Mapper\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Mapper.pdb

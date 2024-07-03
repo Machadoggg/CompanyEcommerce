@@ -8,6 +8,7 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructur
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.AssemblyInfoInputs.cache
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.AssemblyInfo.cs
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.csproj.CoreCompileInputs.cache
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.csproj.CopyComplete
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.sourcelink.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company..AEC5A0DE.Up2Date
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\CompanyEcommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.pdb

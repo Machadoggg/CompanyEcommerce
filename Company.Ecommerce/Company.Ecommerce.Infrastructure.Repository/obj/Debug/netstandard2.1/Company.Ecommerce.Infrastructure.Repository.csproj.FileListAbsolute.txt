@@ -14,6 +14,7 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructu
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.AssemblyInfoInputs.cache
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.AssemblyInfo.cs
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.csproj.CoreCompileInputs.cache
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.csproj.CopyComplete
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.sourcelink.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company..B2132C04.Up2Date
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Infrastructure.Repository\obj\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.pdb
