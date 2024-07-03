@@ -9,6 +9,7 @@ using Company.Ecommerce.Domain.Core;
 using Company.Ecommerce.Application.Interface;
 using Company.Ecommerce.Application.Main;
 using Newtonsoft.Json.Serialization;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,7 +35,28 @@ builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(s => 
+{
+    s.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Company Technology Services API Market",
+        Description = "Simple example ASP .NET Core Web API",
+        //TermsOfService = "None",
+        Contact = new OpenApiContact
+        {
+            Name = "Jorge Machado",
+            Email = "machadoggg@gmail.com",
+            //Url = "https://company.com"
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Use License",
+            //Url = "https://example.com/licence"
+        }
+    });
+});
 
 
 var app = builder.Build();
