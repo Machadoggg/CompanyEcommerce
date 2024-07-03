@@ -18,6 +18,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
         #region "Sync methods"
         [HttpPost]
+        [ActionName("Insert")]
         public IActionResult Insert([FromBody]CustomersDto customersDto)
         {
             if (customersDto == null)
@@ -31,6 +32,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpPut]
+        [ActionName("Update")]
         public IActionResult Update([FromBody] CustomersDto customersDto)
         {
             if (customersDto == null)
@@ -44,6 +46,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpDelete("{CustomerId}")]
+        [ActionName("Delete")]
         public IActionResult Delete(string CustomerId)
         {
             if (string.IsNullOrEmpty(CustomerId))
@@ -57,6 +60,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpGet("{CustomerId}")]
+        [ActionName("Get")]
         public IActionResult Get(string CustomerId)
         {
             if (string.IsNullOrEmpty(CustomerId))
@@ -70,6 +74,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpGet]
+        [ActionName("GetAll")]
         public IActionResult GetAll()
         {
             var response = _customerApplication.GetAll();
@@ -83,6 +88,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
 
         #region "Async methods"
         [HttpPost]
+        [ActionName("InsertAsync")]
         public async Task<IActionResult> InsertAsync([FromBody] CustomersDto customersDto)
         {
             if (customersDto == null)
@@ -96,6 +102,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpPut]
+        [ActionName("UpdateAsync")]
         public async Task<IActionResult> UpdateAsync([FromBody] CustomersDto customersDto)
         {
             if (customersDto == null)
@@ -109,6 +116,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpDelete("{CustomerId}")]
+        [ActionName("DeleteAsync")]
         public async Task<IActionResult> DeleteAsync(string CustomerId)
         {
             if (string.IsNullOrEmpty(CustomerId))
@@ -122,6 +130,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpGet("{CustomerId}")]
+        [ActionName("GetAsync")]
         public async Task<IActionResult> GetAsync(string CustomerId)
         {
             if (string.IsNullOrEmpty(CustomerId))
@@ -135,6 +144,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         }
 
         [HttpGet]
+        [ActionName("GetAllAsync")]
         public async Task<IActionResult> GetAllAsync()
         {
             var response = await _customerApplication.GetAllAsync();
