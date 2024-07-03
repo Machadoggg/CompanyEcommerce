@@ -11,7 +11,6 @@ using Company.Ecommerce.Application.Main;
 using Newtonsoft.Json.Serialization;
 using Microsoft.OpenApi.Models;
 
-//readonly string myPolicy = "policyApiEcommerce";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
