@@ -11,12 +11,20 @@ using Company.Ecommerce.Application.Main;
 using Newtonsoft.Json.Serialization;
 using Microsoft.OpenApi.Models;
 
+//readonly string myPolicy = "policyApiEcommerce";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddAutoMapper(x => 
     x.AddProfile(new MappingsProfile()));
+
+builder.Services.AddCors(options =>
+    options.AddPolicy("policyApiEcommerce", b =>
+        b.WithOrigins(builder.Configuration["Config:OriginCors"])
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                ));
 
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
@@ -73,6 +81,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+
+app.UseCors("policyApiEcommerce");
 
 app.MapControllers();
 
