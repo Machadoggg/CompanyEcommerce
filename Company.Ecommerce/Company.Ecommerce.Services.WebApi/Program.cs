@@ -65,7 +65,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(s => 
+    {
+        s.SwaggerEndpoint("swagger/v1/swagger.json", "My API Ecommerce V1");
+    });
 }
 
 app.UseAuthorization();
