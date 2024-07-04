@@ -2,6 +2,7 @@
 using Company.Ecommerce.Application.Interface;
 using Company.Ecommerce.Services.WebApi.Helpers;
 using Company.Ecommerce.Transversal.Common;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -11,6 +12,7 @@ using System.Text;
 
 namespace Company.Ecommerce.Services.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class UsersController : ControllerBase
