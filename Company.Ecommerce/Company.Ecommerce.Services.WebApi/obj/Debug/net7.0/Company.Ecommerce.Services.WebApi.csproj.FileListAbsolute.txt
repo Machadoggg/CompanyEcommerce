@@ -8,6 +8,7 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.Web
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\AutoMapper.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Dapper.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
@@ -17,6 +18,8 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.Web
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll

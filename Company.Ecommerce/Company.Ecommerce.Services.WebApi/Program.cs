@@ -14,6 +14,7 @@ using Company.Ecommerce.Services.WebApi.Helpers;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -120,6 +121,7 @@ builder.Services.AddSwaggerGen(s =>
             //Url = "https://example.com/licence"
         }
     });
+
     s.AddSecurityDefinition("Authorization", new OpenApiSecurityScheme
     {
         Description = "Authorization by API key.",
@@ -127,7 +129,24 @@ builder.Services.AddSwaggerGen(s =>
         Type = SecuritySchemeType.ApiKey,
         Name = "Authorization"
     });
+
+    s.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Authorization"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+
 });
+
 
 
 var app = builder.Build();
