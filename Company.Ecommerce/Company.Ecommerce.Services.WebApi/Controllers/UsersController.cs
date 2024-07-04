@@ -33,11 +33,14 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
             {
                 if (response.Data != null)
                 {
-
+                    response.Data.Token = BuildToken(response);
+                    return Ok(response);
                 }
                 else
                     return NotFound();
             }
+
+            return BadRequest(response.Message);
         }
 
         private string BuildToken(Response<UsersDto> usersDto) 
