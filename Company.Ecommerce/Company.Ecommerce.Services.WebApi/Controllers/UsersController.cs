@@ -26,6 +26,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
             _appSettings = appSettings.Value;
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Authenticate([FromBody]UsersDto usersDto) 
         {
