@@ -11,6 +11,7 @@ using Company.Ecommerce.Application.Main;
 using Newtonsoft.Json.Serialization;
 using Microsoft.OpenApi.Models;
 using Company.Ecommerce.Services.WebApi.Helpers;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -49,10 +50,16 @@ builder.Services.AddScoped<IUsersApplication, UsersApplication>();
 builder.Services.AddScoped<IUsersDomain, UsersDomain>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
+var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+var  Issuer = appSettings.Issuer;
+var Audience = appSettings.Audience;
+
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
+//Register the swagger generator
 builder.Services.AddSwaggerGen(s => 
 {
     s.SwaggerDoc("v1", new OpenApiInfo
