@@ -81,6 +81,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+app.UseAuthentication();
+
 app.UseCors("policyApiEcommerce");
 
 app.MapControllers();
