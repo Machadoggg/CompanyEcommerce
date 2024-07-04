@@ -12,6 +12,7 @@ using Newtonsoft.Json.Serialization;
 using Microsoft.OpenApi.Models;
 using Company.Ecommerce.Services.WebApi.Helpers;
 using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,6 +54,12 @@ builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 var  Issuer = appSettings.Issuer;
 var Audience = appSettings.Audience;
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+});
 
 
 
