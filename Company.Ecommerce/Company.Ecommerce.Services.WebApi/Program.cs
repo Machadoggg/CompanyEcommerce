@@ -120,6 +120,13 @@ builder.Services.AddSwaggerGen(s =>
             //Url = "https://example.com/licence"
         }
     });
+    s.AddSecurityDefinition("Authorization", new OpenApiSecurityScheme
+    {
+        Description = "Authorization by API key.",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Name = "Authorization"
+    });
 });
 
 
