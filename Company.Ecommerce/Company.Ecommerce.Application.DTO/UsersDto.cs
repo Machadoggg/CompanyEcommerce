@@ -1,6 +1,6 @@
-﻿namespace Company.Ecommerce.Domain.Entity
+﻿namespace Company.Ecommerce.Application.DTO
 {
-    public class Users
+    public class UsersDto
     {
         public int UserId { get; set; }
         public string FirstName { get; set; } = default!;
