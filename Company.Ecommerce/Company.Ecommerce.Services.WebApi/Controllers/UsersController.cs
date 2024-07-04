@@ -4,6 +4,10 @@ using Company.Ecommerce.Services.WebApi.Helpers;
 using Company.Ecommerce.Transversal.Common;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace Company.Ecommerce.Services.WebApi.Controllers
 {
@@ -36,6 +40,27 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
             }
         }
 
+        private string BuildToken(Response<UsersDto> usersDto) 
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+
+            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    new Claim(ClaimTypes.Name, usersDto.Data.UserId.ToString())
+                }),
+                Expires = DateTime.UtcNow.AddMinutes(100),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+                Issuer = _appSettings.Issuer,
+                Audience = _appSettings.Audience
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var tokenString = tokenHandler.WriteToken(token);
+            return tokenString;
+        }
        
     }
 }
