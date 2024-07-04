@@ -37,7 +37,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
                     return Ok(response);
                 }
                 else
-                    return NotFound();
+                    return NotFound(response.Message);
             }
 
             return BadRequest(response.Message);
