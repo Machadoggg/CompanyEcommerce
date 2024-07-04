@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Company.Ecommerce.Application.DTO;
 using Company.Ecommerce.Application.Interface;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Company.Ecommerce.Services.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class CustomersController : Controller
