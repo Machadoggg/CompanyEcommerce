@@ -14,6 +14,10 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.Web
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
@@ -21,6 +25,7 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.Web
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
