@@ -10,6 +10,7 @@ using Company.Ecommerce.Application.Interface;
 using Company.Ecommerce.Application.Main;
 using Newtonsoft.Json.Serialization;
 using Microsoft.OpenApi.Models;
+using Company.Ecommerce.Services.WebApi.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,9 @@ builder.Services.AddControllers()
     {
         options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();
     });
+
+var appSettingsSection = builder.Configuration.GetSection("Config");
+builder.Services.Configure<AppSettings>(appSettingsSection);
 
 // Access the IConfiguration instance
 var configuration = builder.Configuration;
