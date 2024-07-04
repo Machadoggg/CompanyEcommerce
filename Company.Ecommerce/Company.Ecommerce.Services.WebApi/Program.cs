@@ -42,6 +42,9 @@ builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
 builder.Services.AddScoped<ICustomerApplication, CustomersApplication>();
 builder.Services.AddScoped<ICustomersDomain, CustomersDomain>();
 builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
+builder.Services.AddScoped<IUsersApplication, UsersApplication>();
+builder.Services.AddScoped<IUsersDomain, UsersDomain>();
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
