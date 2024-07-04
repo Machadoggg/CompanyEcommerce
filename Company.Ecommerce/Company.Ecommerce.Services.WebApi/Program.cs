@@ -35,6 +35,9 @@ builder.Services.AddControllers()
 var appSettingsSection = builder.Configuration.GetSection("Config");
 builder.Services.Configure<AppSettings>(appSettingsSection);
 
+// configure JWT authentication
+var appSettings = appSettingsSection.Get<AppSettings>();
+
 // Access the IConfiguration instance
 var configuration = builder.Configuration;
 builder.Services.AddSingleton<IConfiguration>(configuration);
