@@ -4,6 +4,6 @@ namespace Company.Ecommerce.Infrastructure.Interface
 {
     public interface IUsersRepository
     {
-        Users Authhenticate(string username, string password);
+        Users Authenticate(string username, string password);
     }
 }

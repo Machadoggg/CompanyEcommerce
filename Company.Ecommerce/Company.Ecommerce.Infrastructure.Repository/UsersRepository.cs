@@ -16,7 +16,7 @@ namespace Company.Ecommerce.Infrastructure.Repository
         }
 
 
-        public Users Authhenticate(string username, string password)
+        public Users Authenticate(string username, string password)
         {
             using (var connection = _connectionFactory.GetConnection)
             {

@@ -15,7 +15,7 @@ namespace Company.Ecommerce.Domain.Core
 
         public Users Authenticate(string username, string password)
         {
-            return _usersRepository.Authhenticate(username, password);
+            return _usersRepository.Authenticate(username, password);
         }
     }
 }

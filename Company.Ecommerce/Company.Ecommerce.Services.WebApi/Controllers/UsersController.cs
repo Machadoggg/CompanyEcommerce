@@ -30,7 +30,7 @@ namespace Company.Ecommerce.Services.WebApi.Controllers
         [HttpPost]
         public IActionResult Authenticate([FromBody]UsersDto usersDto) 
         {
-           var response = _usersApplication.Authenticate(usersDto.UsrName, usersDto.Password);
+           var response = _usersApplication.Authenticate(usersDto.UserName, usersDto.Password);
 
             if (response.IsSuccess)
             {
