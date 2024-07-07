@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Company.Ecommerce.Transversal.Logging
 {
-    public class Class1
+    public class LoggerAdapter
     {
 
     }
