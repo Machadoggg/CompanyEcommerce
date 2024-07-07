@@ -12,3 +12,11 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company..BCEA0829.Up2Date
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Repository.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Interface.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Domain.Entity.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Infrastructure.Data.pdb

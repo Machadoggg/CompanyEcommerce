@@ -468,6 +468,8 @@
       },
       "Company.Ecommerce.Transversal.Logging/1.0.0": {
         "dependencies": {
+          "Company.Ecommerce.Infrastructure.Interface": "1.0.0",
+          "Company.Ecommerce.Infrastructure.Repository": "1.0.0",
           "Company.Ecommerce.Transversal.Common": "1.0.0",
           "Microsoft.Extensions.Logging": "2.1.1"
         },

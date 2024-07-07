@@ -54,6 +54,7 @@ builder.Services.AddScoped<IUsersApplication, UsersApplication>();
 builder.Services.AddScoped<IUsersDomain, UsersDomain>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
+builder.Services.AddScoped<ILogRepository, LogRepository>();
 
 var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 var  Issuer = appSettings.Issuer;
