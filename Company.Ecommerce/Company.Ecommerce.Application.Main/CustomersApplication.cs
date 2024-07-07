@@ -1,12 +1,12 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using Company.Ecommerce.Application.DTO;
 using Company.Ecommerce.Application.Interface;
 using Company.Ecommerce.Domain.Entity;
 using Company.Ecommerce.Domain.Interface;
 using Company.Ecommerce.Transversal.Common;
-using System.Threading.Tasks;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Company.Ecommerce.Application.Main
 {
@@ -25,7 +25,6 @@ namespace Company.Ecommerce.Application.Main
         }
 
 
-
         #region Async methods
         public Response<bool> Insert(CustomersDto customersDto)
         {
@@ -38,11 +37,13 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Registro Exitoso!!!";
+                    _logger.LogInformation("Registro Exitoso!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -58,11 +59,13 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Actualización exitosa!!!";
+                    _logger.LogInformation("Actualización exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -77,15 +80,16 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Eliminación Exitosa!!!";
+                    _logger.LogInformation("Eliminación Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
-
 
         public Response<CustomersDto> Get(string customerId)
         {
@@ -98,11 +102,13 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
+                    _logger.LogInformation("Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -118,11 +124,13 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
+                    _logger.LogInformation("Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -141,16 +149,16 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Registro Exitoso!!!";
+                    _logger.LogInformation("Registro Exitoso!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
-
-
 
         public async Task<Response<bool>> UpdateAsync(CustomersDto customersDto)
         {
@@ -163,15 +171,16 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Actualización Exitosa!!!";
+                    _logger.LogInformation("Actualización Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
-
 
         public async Task<Response<bool>> DeleteAsync(string customerId)
         {
@@ -183,11 +192,13 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Eliminación Exitosa!!!";
+                    _logger.LogInformation("Eliminación Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -203,11 +214,13 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
+                    _logger.LogInformation("Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
@@ -223,16 +236,16 @@ namespace Company.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
+                    _logger.LogInformation("Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
-
-       
         #endregion
     }
 }
