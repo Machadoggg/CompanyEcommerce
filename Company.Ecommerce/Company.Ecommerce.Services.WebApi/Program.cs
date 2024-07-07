@@ -122,12 +122,14 @@ builder.Services.AddSwaggerGen(s =>
         }
     });
 
-    s.AddSecurityDefinition("Authorization", new OpenApiSecurityScheme
+    s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "Authorization by API key.",
+        Name = "Authorization",
         In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Name = "Authorization"
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT"
     });
 
     s.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -138,7 +140,7 @@ builder.Services.AddSwaggerGen(s =>
                 Reference = new OpenApiReference
                 {
                     Type = ReferenceType.SecurityScheme,
-                    Id = "Authorization"
+                    Id = "Bearer"
                 }
             },
             Array.Empty<string>()
@@ -156,15 +158,16 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    //app.UseSwaggerUI(s => 
-    //{
-    //    s.SwaggerEndpoint("swagger/v1/swagger.json", "My API Ecommerce V1");
-    //});
+    app.UseSwaggerUI(s =>
+    {
+        s.SwaggerEndpoint("swagger/v1/swagger.json", "My API Ecommerce V1");
+    });
 }
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
-app.UseAuthentication();
 
 app.UseCors("policyApiEcommerce");
 
