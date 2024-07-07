@@ -1,6 +1,7 @@
 using AutoMapper;
 using Company.Ecommerce.Transversal.Mapper;
 using Company.Ecommerce.Transversal.Common;
+using Company.Ecommerce.Transversal.Logging;
 using Company.Ecommerce.Infrastructure.Data;
 using Company.Ecommerce.Infrastructure.Repository;
 using Company.Ecommerce.Infrastructure.Interface;

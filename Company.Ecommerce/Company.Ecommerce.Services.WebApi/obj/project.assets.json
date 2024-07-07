@@ -179,6 +179,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
@@ -193,6 +209,38 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Options": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Options/6.0.0": {
@@ -724,6 +772,20 @@
           "bin/placeholder/Company.Ecommerce.Transversal.Common.dll": {}
         }
       },
+      "Company.Ecommerce.Transversal.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Company.Ecommerce.Transversal.Common": "1.0.0",
+          "Microsoft.Extensions.Logging": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Company.Ecommerce.Transversal.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Company.Ecommerce.Transversal.Logging.dll": {}
+        }
+      },
       "Company.Ecommerce.Transversal.Mapper/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -1216,6 +1278,19 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Configuration.Binder/2.1.1": {
+      "sha512": "fcLCTS03poWE4v9tSNBr3pWn0QwGgAn1vzqHXlXgvqZeOc7LvQNzaWcKRQZTdEc3+YhQKwMsOtm3VKSA2aWQ8w==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
       "type": "package",
@@ -1239,6 +1314,32 @@
         "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging/2.1.1": {
+      "sha512": "hh+mkOAQDTp6XH80xJt3+wwYVzkbwYQl9XZRCz4Um0JjP/o7N9vHM3rZ6wwwtr+BBe/L6iBO2sz0px6OWBzqZQ==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.2.1.1.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+      "sha512": "XRzK7ZF+O6FzdfWrlFTi1Rgj2080ZDsd46vzOjadHUB0Cz5kOvDG8vI7caa5YFrsHQpcfn0DxtjS4E46N4FZsA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Options/6.0.0": {
@@ -1971,6 +2072,11 @@
       "path": "../Company.Ecommerce.Transversal.Common/Company.Ecommerce.Transversal.Common.csproj",
       "msbuildProject": "../Company.Ecommerce.Transversal.Common/Company.Ecommerce.Transversal.Common.csproj"
     },
+    "Company.Ecommerce.Transversal.Logging/1.0.0": {
+      "type": "project",
+      "path": "../Company.Ecommerce.Transversal.Logging/Company.Ecommerce.Transversal.Logging.csproj",
+      "msbuildProject": "../Company.Ecommerce.Transversal.Logging/Company.Ecommerce.Transversal.Logging.csproj"
+    },
     "Company.Ecommerce.Transversal.Mapper/1.0.0": {
       "type": "project",
       "path": "../Company.Ecommerce.Transversal.Mapper/Company.Ecommerce.Transversal.Mapper.csproj",
@@ -1991,6 +2097,7 @@
       "Company.Ecommerce.Infrastructure.Interface >= 1.0.0",
       "Company.Ecommerce.Infrastructure.Repository >= 1.0.0",
       "Company.Ecommerce.Transversal.Common >= 1.0.0",
+      "Company.Ecommerce.Transversal.Logging >= 1.0.0",
       "Company.Ecommerce.Transversal.Mapper >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.20",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.20",
@@ -2061,6 +2168,9 @@
             },
             "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Common\\Company.Ecommerce.Transversal.Common.csproj": {
               "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Common\\Company.Ecommerce.Transversal.Common.csproj"
+            },
+            "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Logging\\Company.Ecommerce.Transversal.Logging.csproj": {
+              "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Logging\\Company.Ecommerce.Transversal.Logging.csproj"
             },
             "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Mapper\\Company.Ecommerce.Transversal.Mapper.csproj": {
               "projectPath": "C:\\ProjectsDEV\\CompanyEcommerce\\Company.Ecommerce\\Company.Ecommerce.Transversal.Mapper\\Company.Ecommerce.Transversal.Mapper.csproj"

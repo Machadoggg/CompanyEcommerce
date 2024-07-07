@@ -26,6 +26,7 @@
     <ProjectReference Include="..\Company.Ecommerce.Domain.Interface\Company.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\Company.Ecommerce.Infrastructure.Repository\Company.Ecommerce.Infrastructure.Repository.csproj" />
     <ProjectReference Include="..\Company.Ecommerce.Transversal.Common\Company.Ecommerce.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Company.Ecommerce.Transversal.Logging\Company.Ecommerce.Transversal.Logging.csproj" />
     <ProjectReference Include="..\Company.Ecommerce.Transversal.Mapper\Company.Ecommerce.Transversal.Mapper.csproj" />
     <ProjectReference Include="..\CompanyEcommerce.Infrastructure.Data\Company.Ecommerce.Infrastructure.Data.csproj" />
     <ProjectReference Include="..\CompanyEcommerce.Infrastructure.Interface\Company.Ecommerce.Infrastructure.Interface.csproj" />
