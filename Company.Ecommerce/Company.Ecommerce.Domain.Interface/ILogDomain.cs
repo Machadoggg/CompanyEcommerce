@@ -4,6 +4,6 @@ namespace Company.Ecommerce.Domain.Interface
 {
     public interface ILogDomain
     {
-        void AddLogDb(Log log);
+        bool AddLogDb(Log log);
     }
 }

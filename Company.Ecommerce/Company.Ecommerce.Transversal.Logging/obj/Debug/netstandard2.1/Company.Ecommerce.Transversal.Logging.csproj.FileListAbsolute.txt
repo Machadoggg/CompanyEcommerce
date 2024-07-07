@@ -1,0 +1,14 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.deps.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\bin\Debug\netstandard2.1\Company.Ecommerce.Transversal.Common.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.csproj.AssemblyReference.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.sourcelink.json
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company..BCEA0829.Up2Date
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Transversal.Logging\obj\Debug\netstandard2.1\Company.Ecommerce.Transversal.Logging.pdb

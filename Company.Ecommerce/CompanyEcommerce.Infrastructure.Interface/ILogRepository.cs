@@ -4,6 +4,6 @@ namespace Company.Ecommerce.Infrastructure.Interface
 {
     public interface ILogRepository
     {
-        Log AddLogDb(Log log);
+        bool AddLogDb(Log log);
     }
 }

@@ -1,3 +1,10 @@
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.csproj.AssemblyReference.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.AssemblyInfoInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.AssemblyInfo.cs
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.csproj.CoreCompileInputs.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.sourcelink.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\appsettings.Development.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\appsettings.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Services.WebApi.exe
@@ -44,6 +51,7 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.Web
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Infrastructure.Interface.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Infrastructure.Repository.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Transversal.Common.dll
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Transversal.Logging.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Transversal.Mapper.dll
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Application.DTO.pdb
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Application.Interface.pdb
@@ -53,17 +61,11 @@ C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.Web
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Domain.Interface.pdb
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Infrastructure.Repository.pdb
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Transversal.Common.pdb
+C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Transversal.Logging.pdb
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Transversal.Mapper.pdb
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Infrastructure.Data.pdb
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\bin\Debug\net7.0\Company.Ecommerce.Infrastructure.Interface.pdb
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.csproj.AssemblyReference.cache
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.AssemblyInfoInputs.cache
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.AssemblyInfo.cs
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.csproj.CoreCompileInputs.cache
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\Company.Ecommerce.Services.WebApi.sourcelink.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\staticwebassets.build.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\staticwebassets.development.json
 C:\ProjectsDEV\CompanyEcommerce\Company.Ecommerce\Company.Ecommerce.Services.WebApi\obj\Debug\net7.0\staticwebassets\msbuild.Company.Ecommerce.Services.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
