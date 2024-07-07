@@ -21,7 +21,6 @@ namespace Company.Ecommerce.Application.Main
             _customersDomain = customersDomain;
             _mapper = mapper;
             _logger = logger;
-            _logger = logger;
         }
 
 

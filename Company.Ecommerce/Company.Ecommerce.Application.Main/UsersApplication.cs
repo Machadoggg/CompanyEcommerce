@@ -11,11 +11,13 @@ namespace Company.Ecommerce.Application.Main
     {
         private readonly IUsersDomain _usersDomain;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<CustomersApplication> _logger;
 
-        public UsersApplication(IUsersDomain usersDomain, IMapper mapper)
+        public UsersApplication(IUsersDomain usersDomain, IMapper mapper, IAppLogger<CustomersApplication> logger)
         {
             _usersDomain = usersDomain;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public Response<UsersDto> Authenticate(string username, string password)
@@ -25,6 +27,7 @@ namespace Company.Ecommerce.Application.Main
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 response.Message = "Parámetros no pueden ser vacios.";
+                _logger.LogWarning("Parámetros no pueden ser vacios.");
                 return response;
             }
 
@@ -34,15 +37,18 @@ namespace Company.Ecommerce.Application.Main
                 response.Data = _mapper.Map<UsersDto>(user);
                 response.IsSuccess = true;
                 response.Message = "Authenticación exitosa!!!";
+                _logger.LogInformation("Authenticación exitosa!!!");
             }
             catch (InvalidOperationException)
             {
                 response.IsSuccess = true;
                 response.Message = "Usuario no existe";
+                _logger.LogWarning("Usuario no existe");
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
             return response;
         }
